@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  // x:number=100
+
+  email:string=""
+  password:string=""
+
+  login(){
+    console.log("Email => ",this.email);
+    console.log("Password => ",this.password);
+    
+  }
 }

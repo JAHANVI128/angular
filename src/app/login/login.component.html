@@ -1,1 +1,8 @@
-<p>login works!</p>
+<p>Login</p>
+
+ <!-- {{x}} string interpolation   -->
+
+<br>Email:<input type="text" [(ngModel)] = "email"/><br><br>
+Password:<input type="password" [(ngModel)] = "password"/><br>
+<button (click)="login()">Login</button><br>
+<a routerLink="/signup">Signup</a>
